@@ -130,3 +130,34 @@ header {
   text-transform: uppercase;
   font-size: 12px;
 }
+
+/* FORM */ 
+
+input {
+  width: 100%;
+  outline: none;
+  color: #555;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  width: initial;
+  margin-right: 4px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+
+button[type="submit"] {
+  padding: 8px 32px;
+  background-color: #F7DF1E;
+  border-radius: 4px;
+  margin-top: 32px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+}
