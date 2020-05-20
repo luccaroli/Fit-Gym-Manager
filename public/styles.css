@@ -159,5 +159,8 @@ button[type="submit"] {
   margin-top: 32px;
   width: 100%;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #7159c1;
+  letter-spacing: 0.8px;
 }

@@ -4,6 +4,7 @@ const routes = require('./routes')
 const server = express()
 
 // pegar css e routes, ponte para o server 
+server.use(express.urlencoded({ extended: true }))
 server.use(express.static('public'))
 server.use(routes)
 
