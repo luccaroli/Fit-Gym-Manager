@@ -1,32 +1,13 @@
 {
   "instructors": [
     {
+      "id": 1,
       "avatar_url": "http://google.com",
       "name": "Lucas Oliveira",
-      "birth": "1997-10-01",
+      "birth": 875664000000,
       "gender": "M",
-      "services": "Musculação"
-    },
-    {
-      "avatar_url": "http://google.com",
-      "name": "Creuza Pantoja ",
-      "birth": "1979-11-13",
-      "gender": "F",
-      "services": "FitDance"
-    },
-    {
-      "avatar_url": "http://google.com",
-      "name": "Eduardo Bezerra",
-      "birth": "1990-04-27",
-      "gender": "M",
-      "services": "CrossFit"
-    },
-    {
-      "avatar_url": "http://google.com",
-      "name": "Leonardo Souza",
-      "birth": 1095638400000,
-      "gender": "M",
-      "services": "Estágiario"
+      "services": "Musculação",
+      "create_at": 1589995551400
     }
   ]
 }

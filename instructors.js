@@ -11,10 +11,22 @@ exports.post = function(req, res) {
       return res.send('Por favor, Todos os campos são obrigatorios')
     }
   }
-  req.body.birth = Date.parse(req.body.birth)
-  req.body.create_at = Date.now
 
-  data.instructors.push(req.body)
+  let { avatar_url, birth, name, services, gender } = req.body
+
+  birth = Date.parse(birth)
+  const create_at = Date.now()
+  const id = Number(data.instructors.length + 1)
+
+  data.instructors.push({
+    id,
+    avatar_url,
+    name,
+    birth,
+    gender,
+    services,
+    create_at
+  }) 
 
   fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err) {
     if (err) return res.send('Write file error!')
