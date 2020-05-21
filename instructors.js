@@ -2,7 +2,6 @@ const fs = require('fs')
 const data = require('./data.json')
 const { age } = require('./utils')
 const moment = require('moment')
-moment.locale('pt-BR');
 
 // show 
 exports.show = function(req, res) {
@@ -15,8 +14,9 @@ exports.show = function(req, res) {
   })
 
   if (!foundInstructor) return res.send("instructor not find!")
+  
+  moment.locale('pt-BR');
 
-  var options = { day: 'numeric', month: 'long', year: 'numeric' };
   
   const instructor = {
     ...foundInstructor,
