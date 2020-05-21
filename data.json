@@ -4,46 +4,10 @@
       "id": 1,
       "avatar_url": "http://google.com",
       "name": "Lucas Oliveira",
-      "birth": 875664000000,
-      "gender": "M",
-      "services": "Musculação",
-      "create_at": 1590006540468
-    },
-    {
-      "id": 2,
-      "avatar_url": "http://google.com",
-      "name": "Eduardo Bezerra",
-      "birth": 641174400000,
+      "birth": 907200000000,
       "gender": "M",
       "services": "Musculação, CrossFit",
-      "create_at": 1590006569519
-    },
-    {
-      "id": 3,
-      "avatar_url": "http://google.com",
-      "name": "Creuza Pantoja ",
-      "birth": 311299200000,
-      "gender": "F",
-      "services": "FitDance, Natação, Vôlei ",
-      "create_at": 1590006599435
-    },
-    {
-      "id": 4,
-      "avatar_url": "http://google.com",
-      "name": "Leonardo Souza",
-      "birth": 969408000000,
-      "gender": "M",
-      "services": "Estágiario",
-      "create_at": 1590006633461
-    },
-    {
-      "id": 5,
-      "avatar_url": "http://google.com",
-      "name": "Lucas Oliveira Pinto",
-      "birth": 896745600000,
-      "gender": "M",
-      "services": "FitDance, Natação, Vôlei ",
-      "create_at": 1590008262718
+      "create_at": 1590072244587
     }
   ]
 }

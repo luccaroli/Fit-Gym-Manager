@@ -1,6 +1,8 @@
 const fs = require('fs')
 const data = require('./data.json')
 const { age } = require('./utils')
+const moment = require('moment')
+moment.locale('pt-BR');
 
 // show 
 exports.show = function(req, res) {
@@ -14,13 +16,14 @@ exports.show = function(req, res) {
 
   if (!foundInstructor) return res.send("instructor not find!")
 
-  
+  var options = { day: 'numeric', month: 'long', year: 'numeric' };
   
   const instructor = {
     ...foundInstructor,
     age: age(foundInstructor.birth),
     services: foundInstructor.services.split(","),
-    create_at: new Intl.DateTimeFormat('pt-BR').format(foundInstructor.create_at)
+    create_at: moment(foundInstructor.create_at).format('l')
+
   }
 
   return res.render('instructors/show', { instructor })
