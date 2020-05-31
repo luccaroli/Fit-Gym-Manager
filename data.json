@@ -1,15 +1,6 @@
 {
   "instructors": [
     {
-      "id": 1,
-      "avatar_url": "http://google.com",
-      "name": "Lucas Oliveira",
-      "birth": 907200000000,
-      "gender": "M",
-      "services": "Musculação, CrossFit",
-      "create_at": 1590072244587
-    },
-    {
       "id": 2,
       "avatar_url": "https://avatars0.githubusercontent.com/u/61463908?s=460&u=6b0115a003370eaaf276cbc2ed2246aab43795a8&v=4",
       "name": "Eduardo Bezerra",
@@ -19,13 +10,13 @@
       "create_at": 1590094189143
     },
     {
-      "id": 3,
-      "avatar_url": "http://google.com",
-      "name": "Creuza Pantoja ",
-      "birth": 641174400000,
-      "gender": "F",
-      "services": "FitDance, Natação, Vôlei ",
-      "create_at": 1590097771236
+      "id": "2",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/61463908?s=460&u=6b0115a003370eaaf276cbc2ed2246aab43795a8&v=4",
+      "name": "Eduardo Bezerra Pinto",
+      "birth": 907804800000,
+      "gender": "M",
+      "services": "CrossFit, Dança ",
+      "create_at": 1590094189143
     }
   ]
 }
