@@ -1,22 +1,13 @@
 {
   "instructors": [
     {
-      "id": 2,
+      "id": "1",
       "avatar_url": "https://avatars0.githubusercontent.com/u/61463908?s=460&u=6b0115a003370eaaf276cbc2ed2246aab43795a8&v=4",
-      "name": "Eduardo Bezerra",
-      "birth": 907804800000,
+      "name": "Lucas Pinto Oliveira",
+      "birth": 654739200000,
       "gender": "M",
-      "services": "CrossFit",
-      "create_at": 1590094189143
-    },
-    {
-      "id": "2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/61463908?s=460&u=6b0115a003370eaaf276cbc2ed2246aab43795a8&v=4",
-      "name": "Eduardo Bezerra Pinto",
-      "birth": 907804800000,
-      "gender": "M",
-      "services": "CrossFit, Dança ",
-      "create_at": 1590094189143
+      "services": "Musculação, CrossFit",
+      "create_at": 1592424342973
     }
   ]
 }
