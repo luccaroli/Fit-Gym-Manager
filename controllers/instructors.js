@@ -1,6 +1,6 @@
 const fs = require('fs')
-const data = require('./data.json')
-const { age, date } = require('./utils')
+const data = require('../data.json')
+const { age, date } = require('../utils')
 const moment = require('moment')
 
 exports.index = function(req, res) {
@@ -8,8 +8,6 @@ exports.index = function(req, res) {
   return res.render('instructors/index', { instructors: data.instructors })
 }
 
-
-// show 
 exports.show = function(req, res) {
   // query.params
   const { id } = req.params
@@ -35,8 +33,10 @@ exports.show = function(req, res) {
   return res.render('instructors/show', { instructor })
 }
 
+exports.create = function(req, res) {
+  return res.render('instructors/create')
+}
 
-// create 
 exports.post = function(req, res) {
   
   const keys = Object.keys(req.body)
@@ -72,7 +72,6 @@ exports.post = function(req, res) {
   // return res.send(req.body)
 }
 
-// edit 
 exports.edit = function(req, res) {
    // query.params
    const { id } = req.params
@@ -89,7 +88,6 @@ exports.edit = function(req, res) {
   return res.render('instructors/edit', { instructor })  
 }
 
-// put/update
 exports.put = function(req, res) {
    const { id } = req.body
    let index = 0
@@ -122,7 +120,6 @@ exports.put = function(req, res) {
 
 }
 
-// delete
 exports.delete = function(req, res) {
   const { id } =  req.body 
 
