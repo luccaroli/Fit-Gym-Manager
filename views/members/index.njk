@@ -8,23 +8,27 @@
     <table width="100%">
       <thead>
         <tr>
-          <th>Instrutor</th>
-          <th>Atendimento</th>
+          <th>Aluno</th>
+          <th>Email</th>
+          <th>Peso</th>
+          <th>Altura</th>
           <th>Ação</th>
         </tr>
       </thead>
 
       <tbody>
-      {% for instructor in instructors %}
+      {% for member in members %}
         <tr>
           <td>
-            <span style="background-image: url({{instructor.avatar_url}})"></span>
-            {{instructor.name}}
+            <span style="background-image: url({{member.avatar_url}})"></span>
+            {{member.name}}
           </td>
           <td> 
-            <div>{{instructor.services}}</div>
+            <div>{{member.email}}</div>
+            <td>{{member.weight}}kg</td>
+            <td>{{member.height}}cm</td>
           </td>
-          <td><a href="/instructors/{{instructor.id}}">Ver</a></td>
+          <td><a href="/members/{{member.id}}">Ver</a></td>
         </tr>
       </tbody>
 
