@@ -1,5 +1,17 @@
 {
-  "members": [],
+  "members": [
+    {
+      "avatar_url": "https://avatars0.githubusercontent.com/u/61463908?s=460&u=6b0115a003370eaaf276cbc2ed2246aab43795a8&v=4",
+      "name": "luccaroli pinto",
+      "email": "luccaroli20@gmail.com",
+      "birth": 661478400000,
+      "gender": "M",
+      "blood": "A+",
+      "weight": "61",
+      "height": "171",
+      "id": 1
+    }
+  ],
   "instructors": [
     {
       "id": 1,
