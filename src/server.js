@@ -13,7 +13,7 @@ server.use(routes)
 
 // usar variaveis no html 
 server.set('view engine', 'njk')
-nunjucks.configure('views', {
+nunjucks.configure('src/app/views', {
     express: server,
     noCache: true
 })
