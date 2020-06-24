@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,500&display=swap');
 
+:root{
+  --primary-color: #fa7d09;
+  --bottons-color: #ff4301;
+  
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +13,7 @@
 }
 
 body {
-  background-color: #7159c1;
+  background-color: var(--primary-color);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -35,14 +41,14 @@ header {
 
 .links a.active {
   font-weight: bold;
-  color: #7159c1;
+  color: var(--primary-color);
 }
 
 .links a::after {
   content: '';
   width: 0;
   height: 2px;
-  background-color: #7159c1;
+  background-color: var(--primary-color);
   position: absolute;
   left: 0;
   bottom: -4px;
@@ -115,21 +121,22 @@ header {
 .details h3 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #7159c1;
+  color: var(--primary-color);
   font-size: 16px;
 }
 
 .details .item span {
   padding: 8px 16px;
-  background-color: #F7DF1E;
+  background-color: var(--primary-color);
   border-radius: 16px;
-  color: #7159c1;
+  color: white;
   margin-right: 4px;
   margin-top: 8px;
   display: inline-block;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 12px;
+  letter-spacing: 0.8px;
 }
 
 /* FORM */ 
@@ -156,7 +163,7 @@ input::placeholder {
 button[type="submit"],
 a.button {
   padding: 8px 32px;
-  background-color: #7159c1;
+  background-color: var(--bottons-color);
   border-radius: 4px;
   margin-top: 32px;
   width: 100%;
@@ -175,7 +182,7 @@ a.button {
 
 #form-delete button[type="submit"] {
   margin-top: 8px;
-  background-color: tomato;
+  background-color: #d92027;
 }
 
 /** INDEX INSTRUCTORS */
@@ -225,7 +232,7 @@ tbody tr td:first-child span {
 }
 
 tbody tr td:last-child a, .table-container > a {
-  background-color: #7159c1;
+  background-color: var(--bottons-color);
   padding: 8px 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -266,7 +273,7 @@ tbody tr td div {
 .table-container .header form button {
     margin: 0;
     width: 90px;
-    background-color: #7159c1;
+    background-color: var(--bottons-color);
     padding: 8px 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -281,7 +288,7 @@ tbody tr td div {
   margin: 0;
   width: 42px;
 
-  background-color: #7159c1;
+  background-color: var(--bottons-color);
   padding: 8px 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -324,10 +331,10 @@ tbody tr td div {
 .pagination a, 
 .pagination span {
   text-decoration: none;
-  color: #7159c1;
+  color: var(--primary-color);
   margin-right: 6px;
 }
 .pagination a:hover {
   filter: brightness(0.3);
-  border-bottom: 1px solid #7159c1;
+  border-bottom: 1px solid var(--primary-color);
 }
