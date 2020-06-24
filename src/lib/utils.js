@@ -8,10 +8,10 @@ module.exports = {
 
     // age = age - 1
     if (month < 0 || month == 0 && today.getUTCDate() <= birthDate.getUTCDate()) {
-      age = age - 1
-      
-      return age 
+      age = age - 1  
     }
+    return age 
+    
   },
   date: function (timestamp) {
     const date = new Date(timestamp)

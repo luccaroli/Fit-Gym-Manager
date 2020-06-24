@@ -303,3 +303,31 @@ tbody tr td div {
   padding: 4px 8px;
   box-sizing: border-box;
 }
+
+/* pagination */ 
+.table-container {
+  display: grid;
+  grid-template: 64px 1fr 16px / 1fr ;
+}
+
+.table-container .header {
+  margin: 0;
+  align-self: start;
+}
+
+.table-container .pagination {
+  margin: 0;
+  align-self: end;
+  justify-self: center;
+}
+
+.pagination a, 
+.pagination span {
+  text-decoration: none;
+  color: #7159c1;
+  margin-right: 6px;
+}
+.pagination a:hover {
+  filter: brightness(0.3);
+  border-bottom: 1px solid #7159c1;
+}
